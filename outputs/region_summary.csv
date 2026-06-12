@@ -1,0 +1,5 @@
+region,orders,units_sold,net_revenue,avg_rating
+East,10,288,430135.29,4.3
+North,10,256,650689.51,4.4
+South,10,273,450152.23,4.24
+West,10,274,550744.92,4.29

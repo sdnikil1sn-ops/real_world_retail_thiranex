@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Sales Analysis Report</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f5f7fb;
+      color: #172033;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+    }
+    h2 {
+      margin: 0 0 18px;
+      font-size: 20px;
+    }
+    .subtitle {
+      margin: 0 0 24px;
+      color: #586174;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 14px;
+      margin: 24px 0;
+    }
+    .metric, section {
+      background: #ffffff;
+      border: 1px solid #dce3ef;
+      border-radius: 8px;
+      padding: 18px;
+      box-shadow: 0 8px 20px rgba(23, 32, 51, 0.06);
+    }
+    .metric span {
+      display: block;
+      color: #586174;
+      font-size: 13px;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 22px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 18px;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 120px 1fr 120px;
+      gap: 12px;
+      align-items: center;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+    .bar-track {
+      height: 14px;
+      background: #e9edf5;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+    }
+    .bar-value {
+      color: #39445a;
+      text-align: right;
+    }
+    svg {
+      width: 100%;
+      height: auto;
+    }
+    polyline {
+      fill: none;
+      stroke: #2f6fed;
+      stroke-width: 4;
+    }
+    circle {
+      fill: #00a676;
+      stroke: #ffffff;
+      stroke-width: 2;
+    }
+    text {
+      fill: #586174;
+      font-size: 13px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    @media (max-width: 640px) {
+      .bar-row {
+        grid-template-columns: 1fr;
+        gap: 6px;
+      }
+      .bar-value {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Retail Sales Analysis Report</h1>
+    <p class="subtitle">A real-world retail dataset analyzed for sales performance, inventory risk, and next-month revenue prediction.</p>
+    <div class="metrics">
+      <div class="metric"><span>Total net revenue</span><strong>Rs. 2,081,722</strong></div>
+      <div class="metric"><span>Total units sold</span><strong>1,091</strong></div>
+      <div class="metric"><span>Average rating</span><strong>4.3</strong></div>
+      <div class="metric"><span>Next forecast</span><strong>Rs. 336,713</strong></div>
+    </div>
+    <section style="margin-bottom:18px;">
+      <h2>Conclusions</h2>
+      <ul><li>North is the strongest region by net revenue.</li><li>Electronics is the leading category and should remain a priority for campaigns.</li><li>Online sales generated the highest channel revenue.</li><li>7 records show high stock risk, so inventory planning needs attention.</li><li>The next-month revenue forecast is Rs. 336,713 using a 3-month moving average.</li></ul>
+    </section>
+    <div class="grid">
+      <section><h2>Net Revenue by Region</h2>
+            <div class="bar-row">
+              <div class="bar-label">North</div>
+              <div class="bar-track"><div class="bar-fill" style="width:100.0%; background:#2f6fed;"></div></div>
+              <div class="bar-value">Rs. 650,690</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">West</div>
+              <div class="bar-track"><div class="bar-fill" style="width:84.6%; background:#2f6fed;"></div></div>
+              <div class="bar-value">Rs. 550,745</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">South</div>
+              <div class="bar-track"><div class="bar-fill" style="width:69.2%; background:#2f6fed;"></div></div>
+              <div class="bar-value">Rs. 450,152</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">East</div>
+              <div class="bar-track"><div class="bar-fill" style="width:66.1%; background:#2f6fed;"></div></div>
+              <div class="bar-value">Rs. 430,135</div>
+            </div>
+            </section>
+      <section><h2>Net Revenue by Category</h2>
+            <div class="bar-row">
+              <div class="bar-label">Electronics</div>
+              <div class="bar-track"><div class="bar-fill" style="width:100.0%; background:#00a676;"></div></div>
+              <div class="bar-value">Rs. 1,182,790</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">Fashion</div>
+              <div class="bar-track"><div class="bar-fill" style="width:32.9%; background:#00a676;"></div></div>
+              <div class="bar-value">Rs. 389,287</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">Home</div>
+              <div class="bar-track"><div class="bar-fill" style="width:27.4%; background:#00a676;"></div></div>
+              <div class="bar-value">Rs. 323,757</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">Groceries</div>
+              <div class="bar-track"><div class="bar-fill" style="width:15.7%; background:#00a676;"></div></div>
+              <div class="bar-value">Rs. 185,888</div>
+            </div>
+            </section>
+      <section><h2>Net Revenue by Store Type</h2>
+            <div class="bar-row">
+              <div class="bar-label">Online</div>
+              <div class="bar-track"><div class="bar-fill" style="width:100.0%; background:#ef7b45;"></div></div>
+              <div class="bar-value">Rs. 1,334,352</div>
+            </div>
+            
+            <div class="bar-row">
+              <div class="bar-label">Store</div>
+              <div class="bar-track"><div class="bar-fill" style="width:56.0%; background:#ef7b45;"></div></div>
+              <div class="bar-value">Rs. 747,370</div>
+            </div>
+            </section>
+      
+    <section>
+      <h2>Monthly Net Revenue Trend</h2>
+      <svg viewBox="0 0 680 240" role="img" aria-label="Monthly Net Revenue Trend">
+        <polyline points="0.0,150.3 97.1,138.0 194.3,97.0 291.4,117.7 388.6,141.1 485.7,66.2 582.9,128.4 680.0,22.0"></polyline>
+        <circle cx="0.0" cy="150.3" r="5"></circle><circle cx="97.1" cy="138.0" r="5"></circle><circle cx="194.3" cy="97.0" r="5"></circle><circle cx="291.4" cy="117.7" r="5"></circle><circle cx="388.6" cy="141.1" r="5"></circle><circle cx="485.7" cy="66.2" r="5"></circle><circle cx="582.9" cy="128.4" r="5"></circle><circle cx="680.0" cy="22.0" r="5"></circle>
+        <text x="0.0" y="235" text-anchor="middle">2026-01</text><text x="97.1" y="235" text-anchor="middle">2026-02</text><text x="194.3" y="235" text-anchor="middle">2026-03</text><text x="291.4" y="235" text-anchor="middle">2026-04</text><text x="388.6" y="235" text-anchor="middle">2026-05</text><text x="485.7" y="235" text-anchor="middle">2026-06</text><text x="582.9" y="235" text-anchor="middle">2026-07</text><text x="680.0" y="235" text-anchor="middle">2026-08</text>
+      </svg>
+    </section>
+    
+    </div>
+  </main>
+</body>
+</html>

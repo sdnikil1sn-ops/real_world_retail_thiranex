@@ -1,0 +1,41 @@
+order_id,order_date,region,store_type,category,product,units_sold,unit_price,discount_percent,inventory_level,customer_rating,discount_amount,gross_revenue,net_revenue,month,stock_risk
+2001,2026-01-03,North,Online,Electronics,Bluetooth Speaker,18,2499,8,130,4.3,3598.56,44982,41383.44,2026-01,Low
+2002,2026-01-06,West,Store,Fashion,Denim Jacket,22,1899,12,96,4.1,5013.36,41778,36764.64,2026-01,Medium
+2003,2026-01-09,South,Store,Groceries,Organic Rice,45,420,5,210,4.4,945.0,18900,17955.0,2026-01,Low
+2004,2026-01-12,East,Online,Home,Table Lamp,16,1299,10,85,4.0,2078.4,20784,18705.6,2026-01,Medium
+2005,2026-01-18,North,Store,Fashion,Sneakers,25,2499,15,74,4.2,9371.25,62475,53103.75,2026-01,Medium
+2006,2026-02-02,West,Online,Electronics,Smart Watch,14,4999,10,68,4.5,6998.6,69986,62987.4,2026-02,Medium
+2007,2026-02-07,South,Store,Groceries,Cold Pressed Oil,38,650,7,190,4.3,1729.0,24700,22971.0,2026-02,Low
+2008,2026-02-11,East,Store,Home,Curtain Set,20,1599,9,88,4.1,2878.2,31980,29101.8,2026-02,Medium
+2009,2026-02-17,North,Online,Electronics,Wireless Earbuds,30,1999,14,112,4.4,8395.8,59970,51574.2,2026-02,Medium
+2010,2026-02-22,West,Store,Fashion,Cotton Shirt,34,999,18,145,4.0,6113.88,33966,27852.12,2026-02,Low
+2011,2026-03-03,South,Online,Groceries,Protein Mix,24,899,6,104,4.2,1294.56,21576,20281.44,2026-03,Medium
+2012,2026-03-08,East,Store,Home,Storage Box,31,699,8,156,3.9,1733.52,21669,19935.48,2026-03,Low
+2013,2026-03-14,North,Store,Fashion,Backpack,28,1499,11,100,4.2,4616.92,41972,37355.08,2026-03,Medium
+2014,2026-03-19,West,Online,Electronics,Tablet,11,15999,9,43,4.6,15839.01,175989,160149.99,2026-03,High
+2015,2026-03-24,South,Store,Home,Cookware Set,18,2799,10,67,4.1,5038.2,50382,45343.8,2026-03,Medium
+2016,2026-04-02,East,Online,Groceries,Health Snack Box,35,799,6,132,4.3,1677.9,27965,26287.1,2026-04,Low
+2017,2026-04-07,North,Online,Electronics,Smart Watch,17,4899,12,59,4.6,9993.96,83283,73289.04,2026-04,High
+2018,2026-04-13,West,Store,Fashion,Sneakers,29,2399,16,80,4.3,11131.36,69571,58439.64,2026-04,Medium
+2019,2026-04-18,South,Store,Home,Table Lamp,21,1249,10,91,4.0,2622.9,26229,23606.1,2026-04,Medium
+2020,2026-04-25,East,Online,Electronics,Bluetooth Speaker,26,2399,9,118,4.4,5613.66,62374,56760.34,2026-04,Medium
+2021,2026-05-03,North,Store,Groceries,Organic Rice,52,410,5,230,4.5,1066.0,21320,20254.0,2026-05,Low
+2022,2026-05-09,West,Online,Home,Curtain Set,24,1549,11,77,4.2,4089.36,37176,33086.64,2026-05,Medium
+2023,2026-05-15,South,Store,Fashion,Cotton Shirt,39,949,17,152,4.1,6291.87,37011,30719.13,2026-05,Low
+2024,2026-05-20,East,Online,Electronics,Wireless Earbuds,34,1899,13,105,4.5,8393.58,64566,56172.42,2026-05,Medium
+2025,2026-05-28,North,Store,Home,Cookware Set,20,2699,12,63,4.2,6477.6,53980,47502.4,2026-05,Medium
+2026,2026-06-04,West,Store,Groceries,Cold Pressed Oil,42,640,8,184,4.4,2150.4,26880,24729.6,2026-06,Low
+2027,2026-06-10,South,Online,Electronics,Tablet,13,15499,10,38,4.7,20148.7,201487,181338.3,2026-06,High
+2028,2026-06-15,East,Store,Fashion,Denim Jacket,26,1799,14,91,4.2,6548.36,46774,40225.64,2026-06,Medium
+2029,2026-06-20,North,Online,Electronics,Smart Watch,19,4799,11,55,4.6,10029.91,91181,81151.09,2026-06,High
+2030,2026-06-27,West,Store,Home,Storage Box,36,679,9,148,4.0,2199.96,24444,22244.04,2026-06,Low
+2031,2026-07-04,South,Store,Groceries,Protein Mix,29,879,7,98,4.3,1784.37,25491,23706.63,2026-07,Medium
+2032,2026-07-09,East,Online,Electronics,Wireless Earbuds,37,1849,12,96,4.5,8209.56,68413,60203.44,2026-07,Medium
+2033,2026-07-14,North,Store,Fashion,Backpack,32,1449,13,92,4.3,6027.84,46368,40340.16,2026-07,Medium
+2034,2026-07-21,West,Online,Electronics,Bluetooth Speaker,29,2299,10,110,4.4,6667.1,66671,60003.9,2026-07,Medium
+2035,2026-07-26,South,Store,Home,Curtain Set,23,1499,10,73,4.1,3447.7,34477,31029.3,2026-07,Medium
+2036,2026-08-03,East,Store,Groceries,Health Snack Box,41,779,7,124,4.4,2235.73,31939,29703.27,2026-08,Low
+2037,2026-08-08,North,Online,Electronics,Tablet,15,14999,9,35,4.7,20248.65,224985,204736.35,2026-08,High
+2038,2026-08-14,West,Store,Fashion,Sneakers,33,2299,15,76,4.4,11380.05,75867,64486.95,2026-08,Medium
+2039,2026-08-20,South,Online,Home,Cookware Set,23,2599,11,58,4.2,6575.47,59777,53201.53,2026-08,High
+2040,2026-08-28,East,Online,Electronics,Smart Watch,22,4699,10,52,4.7,10337.8,103378,93040.2,2026-08,High
