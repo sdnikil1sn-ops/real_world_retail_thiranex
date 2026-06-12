@@ -10,6 +10,10 @@ This project uses a retail sales dataset to perform end-to-end applied data anal
 - Builds a simple moving-average forecast for the next month.
 - Presents findings, visualizations, and conclusions in an HTML report.
 
+## Link
+```web
+https://github.com/sdnikil1sn-ops/real_world_retail_thiranex
+```
 ## Project Structure
 
 ```text
